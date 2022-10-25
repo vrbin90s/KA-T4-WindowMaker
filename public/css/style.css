@@ -1,0 +1,54 @@
+.body {
+    font-family: 'Nunito', sans-serif;
+    background: #171923;
+    color: #fff;
+    text-align: center;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-side, .right-side {
+    display: inline-block;
+    min-width: 300px;
+    min-height: 150px;
+    background: aquamarine;
+}
+
+.card-wrapper h3 {
+    margin-bottom: 50px;
+    color: #171923;
+}
+
+.card-wrapper a {
+    background: #171923;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.card-wrapper a:hover {
+    background: #363a52;
+}
+
+.content {
+    padding: 60px;
+    background: aquamarine;
+}
+.content h4 {
+    color: black;
+}
+
+.go-back-link {
+    margin-bottom: 60px !important;
+}
+
+span {
+    color: #1E91D6;
+}
+

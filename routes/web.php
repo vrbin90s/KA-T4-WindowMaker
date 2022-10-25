@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AluminumWindowController;
+use App\Http\Controllers\PlasticWindowController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome')->name('home.page');
+
+Route::get('/plastic_window', [PlasticWindowController::class, 'makeWindow'])->name('plastic.window');
+Route::get('/aluminum_window', [AluminumWindowController::class, 'makeWindow'])->name('aluminum.window');
