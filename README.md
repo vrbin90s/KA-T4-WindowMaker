@@ -16,11 +16,14 @@ To create this simple example this project used Abstract Factory from identified
 
 ### Usage Example
 
-Select what window u want to make (figure 1):
+>Select what window u want to make (figure 1):
 
 ![img.png](img.png)
+
 Figure 1 - Main View
 
-Generating example results based on the code logic (figure 2)
+>Generating example results based on the code logic (figure 2)
+ 
 ![img_1.png](img_1.png)
+
 Figure 2 - Result View
