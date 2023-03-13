@@ -1,4 +1,4 @@
-### KiloAcademy Task 4 - Window Maker
+### Window Maker
 The main objective of this task was to identify PHP Design Patterns that can be used to generate windows, their makers and colors. 
 
 
